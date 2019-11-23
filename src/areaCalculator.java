@@ -29,7 +29,7 @@ public class areaCalculator {
 
 //      -------parameterCalculation-----
         System.out.println("\nRectangles area calculation with args from main()");
-        for(int i = 0; i < args.length; i = i+2){
+        for(int i = 0; i < args.length; i = i+2){ /*first number is width, second number is height*/
             System.out.println(calculateRectArea(Integer.parseInt(args[i]), Integer.parseInt(args[i+1])) + " cm²");
         }
     }
